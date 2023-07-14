@@ -1,0 +1,286 @@
+/*=====================================================================
+
+   TOC:
+   a. General Styles
+   b. Header Styles
+   c. About Section
+   d. Resume Section
+   e. Portfolio Section
+   f. Call To Action Section
+   g. Testimonials Section
+   h. Contact Section
+   i. Footer
+
+===================================================================== */
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+html { height: 100%; }
+body { background: #0f0f0f; height: 100%;}
+li {
+   list-style: none;
+}
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
+
+header {
+   position: relative;
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   height: 100vh;
+   min-height: 500px;
+   width: 100%;
+   background: rgb(101, 116, 103) url(../images/background.jpg) no-repeat top center;
+   background-size: cover !important;
+   background-blend-mode: multiply;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+/* vertically center banner section */
+
+header .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   margin-top: auto;
+   width: 85%;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+
+header .banner-text { width: 100%; }
+header .banner-text h1 {
+   font: 90px/1.1em 'opensans-bold', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+header .banner-text h3 {
+   font: 18px/1.9em 'opensans-regular', serif;
+   color: #A8A8A8;
+   margin: 0 auto;
+   width: 70%;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+header .banner-text h3 span,
+header .banner-text h3 a {
+   color: #fff;
+}
+header .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: rgba(150, 150, 150, .3);
+}
+
+/* header social links */
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+header .social li a { color: #fff; }
+header .social li a:hover { color: #11ABB0; }
+
+header .scrolldown {color: white; text-shadow: 0px 1px 6px rgba(0, 0, 0, .8);}
+header .scrolldown:hover { color: #11ABB0; }
+
+/* primary navigation
+--------------------------------------------------------------------- */
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: #fff;
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #b196ef; }
+
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+#about {
+   padding: 50px 20px;
+   background-color: #2B2B2B;
+ }
+
+.sprofile-pic-container {
+   display: inline-block; 
+   position: relative;
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.profile-pic {
+   width: auto;
+   height: 100%;
+   margin-left: -50px
+}
+
+.avatar {
+   display: inline-block; 
+   position: relative;
+}
+
+.text-left {
+   text-align: left;
+}
+
+#about h1, #about h2, #about h3 {
+   color: white;
+}
+
+#about p {
+   color: #7A7A7A;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+   padding: 50px 20px;
+   background-color: white;
+}
+
+#resume h1, #resume h2, #resume h3, #resume h4 {
+   color: #313131;
+}
+
+#resume h1 span {
+   border-bottom: solid #b196ef 3px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Projects Section
+/* ------------------------------------------------------------------ */
+#projects {
+   padding: 50px 20px;
+   background-color: #2B2B2B;
+}
+
+.projects-container {
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.image-link {
+   text-decoration: none;
+   position: relative;
+}
+
+.image-link p {
+   margin-left: 10px;
+   position: absolute;
+   top: 20px;
+   color: #b196ef;
+}
+
+#projects h1, #projects h2 {
+   color: white;
+   margin: 30px;
+}
+
+.hide {
+   display: none;
+   z-index: 9;
+}
+
+.show {
+   display: block;
+   z-index: 9;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* d. Contact Section
+/* ------------------------------------------------------------------ */
+
+#contact {
+   padding: 50px 20px;
+}
+
+#contact h2 {
+   color: white;
+}
+
+#contact .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   display: flex;
+   justify-content: center;
+}
+
+#contact .social li a {
+   margin: 0 10px;
+   color: white;
+}
+
+#contact .social li a:hover {
+   color: #11ABB0;
+}
