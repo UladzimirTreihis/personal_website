@@ -1,5 +1,4 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Uladzimir Treihis",
     "role": "Frontend Developer and Data Scientist",
     "roleDescription": "I am a tutor, learner, programmer and the guy who made this website. And much more inspirational info",
@@ -32,7 +31,7 @@ let resumeData = {
         "Achievements":"++++++++++"
       },
       {
-        "UniversityName":"Institute of Coding or Something",
+        "UniversityName":"Institute of Coding or Something 2",
         "specialization":"Major in coding also",
         "MonthOfPassing":"June",
         "YearOfPassing":"2016",
