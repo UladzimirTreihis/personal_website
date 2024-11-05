@@ -1,57 +1,70 @@
 let resumeData = {
     "name": "Uladzimir Treihis",
-    "role": "Frontend Developer and Data Scientist",
-    "roleDescription": "I am a tutor, learner, programmer and the guy who made this website. And much more inspirational info",
+    "role": "Web Developer and Data Scientist",
+    "roleDescription": "I am a solution-oriented enthusiast (nerd), tutor, learner, programmer and mathematician",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/",
+          "url":"https://www.linkedin.com/in/uladzimir-treihis/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/",
+          "url":"https://github.com/UladzimirTreihis",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://facebook.com/",
-          "className":"fa fa-twitter"
+          "name":"email",
+          "url":"uladzimir.treihis@gmail.com",
+          "className":"fa fa-email"
         }
       ],
-    "aboutme":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "address":"Online",
-    "website":"https://wikipedia.org",
+    "aboutMe": "I'm a passionate problem-solver with a background in mathematics and computer science, drawn to projects that bridge technology and real-world applications. My journey has taken me around the globe—Belarus, Armenia, Singapore, Chile, and Poland—where I studied and worked, from developing educational courses to building websites and analyzing data. My personal favorite quality is critical thinking and the ability to bring new and creative solutions to the table. Beyond that, I am a functional programming and mathematics enthusiast, a sound and music designer, and a big-time geography fan.",
+    "address":"Bialystok, Poland",
+    "website":"",
     "education":[
       {
-        "UniversityName":"Institute of Coding or Something",
-        "specialization":"Major in coding",
-        "MonthOfPassing":"June",
-        "YearOfPassing":"2020",
-        "Achievements":"++++++++++"
+        "universityName":"Yale-NUS College, Singapore",
+        "specialization":"Mathematical, Computational and Statistical Sciences",
+        "monthFrom":"August",
+        "yearFrom":"2020",
+        "monthTo":"June",
+        "yearTo":"2025",
+        "achievements":"",
+        "gpa": "4.73/5",
+        "images": ["images/education/ync/0.jpg", "images/education/ync/1.jpg", "images/education/ync/2.jpg"],
+        "about": "First and foremost, I have learned to learn!",
+        "courses": ["Functional Programming and Proving", "Signal Processing", "Probability", "Programming for Data Science", "Introduction to Computer Science",
+          "Statistical Inference", "Linear Algebra", "Generalized Linear Models", "Modern Algebra", "Real Analysis"],
+        "clubs": ["YNC Technology", "Volleyball", "Ping pong", "Visual Arts Society"]
       },
       {
-        "UniversityName":"Institute of Coding or Something 2",
-        "specialization":"Major in coding also",
-        "MonthOfPassing":"June",
-        "YearOfPassing":"2016",
-        "Achievements":"++++++++++"
+        "universityName":"Pontificia Universidad Catolica de Chile",
+        "specialization":"Software Architecture",
+        "monthFrom":"August",
+        "yearFrom":"2024",
+        "monthTo":"December",
+        "yearTo":"2024",
+        "achievements":"",
+        "gpa": "",
+        "images": ["images/education/uc/0.jpg", "images/education/uc/1.jpg"],
+        "about": "My truly advanterous exchange program",
+        "courses": ["Software Architecture", "Einstein Relativism"],
+        "clubs": ["Quechua Culture and Language"]
       },
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "companyName":"Crimson Education",
+        "role":"Web Development Tutor",
+        "monthFrom":"August",
+        "yearFrom":"2024",
+        "monthTo":"December",
+        "yearTo":"2024",
+        "images": [],
+        "about": "",
+        "skills": [],
+        "achievements": []
       }
     ],
     "skillsDescription":"Your skills here",

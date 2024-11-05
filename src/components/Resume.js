@@ -1,5 +1,7 @@
 import React from 'react'
 import { Grid, Rating } from '@mui/material'
+import Education from './Education'
+import Experiences from './Experiences'
 
 const Resume = ({ resumeData }) => {
 
@@ -14,7 +16,9 @@ const Resume = ({ resumeData }) => {
                 </Grid>
                 <Grid item xs={12} md={5}>
                 <div className="text-left">
-                    {
+                    <Education schools={resumeData.education}/>
+                    <Experiences experiences={resumeData.work} />
+                    {/* {
                     resumeData.education && resumeData.education.map((item)=>{
                         return(
                         <div className="row item">
@@ -30,7 +34,7 @@ const Resume = ({ resumeData }) => {
                         </div>
                         )
                     })
-                    }
+                    } */}
                 </div>
                 </Grid>
                 <Grid item xs={0} md={2} />
