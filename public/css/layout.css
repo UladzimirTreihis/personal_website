@@ -210,16 +210,16 @@ ul#nav li.current a { color: #b196ef; }
    color: #313131;
 }
 
-#resume h1 span {
+/* #resume h1 span {
    border-bottom: solid #b196ef 3px;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* d. Projects Section
 /* ------------------------------------------------------------------ */
 #projects {
    padding: 50px 20px;
-   background-color: #2B2B2B;
+   background-color: white;
 }
 
 .projects-container {

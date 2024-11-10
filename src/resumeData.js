@@ -16,7 +16,7 @@ let resumeData = {
         {
           "name":"email",
           "url":"uladzimir.treihis@gmail.com",
-          "className":"fa fa-email"
+          "className":"fa fa-envelope"
         }
       ],
     "aboutMe": "I'm a passionate problem-solver with a background in mathematics and computer science, drawn to projects that bridge technology and real-world applications. My journey has taken me around the globe—Belarus, Armenia, Singapore, Chile, and Poland—where I studied and worked, from developing educational courses to building websites and analyzing data. My personal favorite quality is critical thinking and the ability to bring new and creative solutions to the table. Beyond that, I am a functional programming and mathematics enthusiast, a sound and music designer, and a big-time geography fan.",
@@ -61,52 +61,185 @@ let resumeData = {
         "yearFrom":"2024",
         "monthTo":"December",
         "yearTo":"2024",
-        "images": [],
-        "about": "",
-        "skills": [],
-        "achievements": []
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5",
-        "level": "5"
+        "images": ["images/experience/crimson0.png", "images/experience/crimson1.png"],
+        "about": "Leading the high school students from the absolute beginners to their full stack applications",
+        "skills": ["React", "Node.js", "Flask", "SQL", "SQLite"],
+        "achievements": [
+          "Designed new Frontend with React and Backend with Flask courses expanding the school to Web -Development.",
+          "Mentored over 20 students from absolute beginners to their first hosted web-projects."
+        ]
       },
       {
-        "skillname":"CSS",
-        "level": "3"
+        "companyName":"Yale-NUS Research",
+        "role":"Web Developer",
+        "monthFrom":"May",
+        "yearFrom":"2021",
+        "monthTo":"November",
+        "yearTo":"2022",
+        "images": ["images/experience/yncit0.jpeg", "images/experience/yncastro1.png"],
+        "about": "Building a web service for the leading data collection and processing the detections of atomic and molecular spectral lines for galaxies",
+        "skills": ["Flask", "SQL", "GitHub", "Git", "Code review", "Presentation"],
+        "achievements": [
+          "Built and deployed a Flask-based application with user authentication and admin authorization to securely submit, parse, approve and process data from a web-form or file submission.",
+          "Managed project's GitHub repository and documentation."
+        ]
       },
       {
-        "skillname":"Reactjs",
-        "level": "4.5"
+        "companyName":"Yale-NUS IT",
+        "role":"Senior Student Associate",
+        "monthFrom":"October",
+        "yearFrom":"2020",
+        "monthTo":"June",
+        "yearTo":"2024",
+        "images": ["images/experience/yncit0.jpeg", "images/experience/yncit1.png"],
+        "about": "Helping the Yale-NUS community with IT-related issues",
+        "skills": ["Communication", "Salesforce", "Reporting", "Troubleshooting"],
+        "achievements": [
+          "Consulted users of Yale-NUS IT resources on more than 1000 IT-related incidents in person and via Salesforce platform.",
+          "Collaborated with the IT center members for creating user friendly guides and follow-up reports."
+        ]
+      },
+      {
+        "companyName":"UWC Belarus National Committee",
+        "role":"Selection and Promotion Coordinator, Website Editor",
+        "monthFrom":"July",
+        "yearFrom":"2021",
+        "monthTo":"July",
+        "yearTo":"2023",
+        "images": ["images/experience/uwc0.png", "images/experience/uwc1.png"],
+        "about": "Promoting and making available quality education to Belarusian youth",
+        "skills": ["Communication", "Canva", "SurveyMonkey", "Leadership"],
+        "achievements": [
+          "Prepared data analysis reports based on the selection process and participants’ data according to the Data Protection Policy.",
+          "Led the promotion campaign yielding the highest number of applicants in 25 years with 100% increase from previous year."
+        ]
       }
     ],
+    "skillsDescription":"Skills and Tools",
+    "skills": {
+      "pLanguages": [
+        {
+          "pLanguageName":"Python",
+          "level": "5"
+        },
+        {
+          "pLanguageName":"Javascript",
+          "level": "5"
+        },
+        {
+          "pLanguageName":"SQL",
+          "level": "4"
+        },
+        {
+          "pLanguageName":"OCaml",
+          "level": "4"
+        },
+        {
+          "pLanguageName":"R",
+          "level": "3"
+        },
+        {
+          "pLanguageName":"C",
+          "level": "2"
+        },
+      ],
+      "tools": [
+        {
+          "toolName": "React",
+          "level": "5"
+        },
+        {
+          "toolName": "Flask",
+          "level": "5"
+        },
+        {
+          "toolName": "Node.js",
+          "level": "4.5"
+        },
+        {
+          "toolName": "GitHub",
+          "level": "4.5"
+        },
+        {
+          "toolName": "Git",
+          "level": "4.5"
+        },
+        {
+          "toolName": "SQLite",
+          "level": "4"
+        },
+        {
+          "toolName": "PostgreSQL",
+          "level": "4"
+        },
+        {
+          "toolName": "EC 2",
+          "level": "4"
+        },
+        {
+          "toolName": "Docker",
+          "level": "4"
+        },
+        {
+          "toolName": "Coq Proof Assistant",
+          "level": "4"
+        },
+        {
+          "toolName": "Pandas",
+          "level": "4"
+        },
+        {
+          "toolName": "AWS Lambda",
+          "level": "3"
+        },
+        {
+          "toolName": "Nginx",
+          "level": "2"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "level": "5"
+        },
+        {
+          "language": "Belarusian",
+          "level": "5"
+        },
+        {
+          "language": "Russian",
+          "level": "5"
+        },
+        {
+          "language": "Polish",
+          "level": "4.5"
+        },
+        {
+          "language": "Spanish",
+          "level": "4"
+        },
+        {
+          "language": "Ukrainian",
+          "level": "3.5"
+        },
+      ]
+    },
     "portfolio":[
       {
-        "name":"Telegram Bot",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/telegram.png",
-        "url": "https://www.wikipedia.org/"
+        "name":"LineDB",
+        "description":"A public database of all published detections of atomic and molecular spectral lines for galaxies at z > 1",
+        "images":["images/portfolio/linedb0.png", "images/portfolio/linedb1.png"],
+        "url": "https://linedb.nfshost.com/home",
+        "stack": ["Flask", "SQLite", "NFShost"],
+        "gitUrl": "https://github.com/UladzimirTreihis/spectral_line_detection_database"
       },
       {
-        "name":"Todo App",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/todo.jpg",
-        "url": "https://www.wikipedia.org/"
+        "name":"This website",
+        "description":"Personal website",
+        "images":["images/portfolio/website0.png"],
+        "url": "https://www.wikipedia.org/",
+        "stack": ["React", "MUI"]
       },
-      {
-        "name":"Trading Platform",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/trading.jpg",
-        "url": "https://www.wikipedia.org/"
-      },
-      {
-        "name":"Code Manager",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/coding.jpg",
-        "url": "https://www.wikipedia.org/"
-      }
     ],
   }
   

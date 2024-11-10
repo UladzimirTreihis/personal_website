@@ -8,6 +8,8 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Education from './components/Education';
+import Skills from './components/Skills';
+import Experiences from './components/Experiences';
 
 
 function App() {
@@ -17,7 +19,6 @@ function App() {
     <div className="App">
       <Header resumeData={resumeData}/>
       <About resumeData={resumeData}/>
-      <Education schools={resumeData.education}/>
       <Resume resumeData={resumeData}/>
       <Projects resumeData={resumeData}/>
       <Contact resumeData={resumeData} />

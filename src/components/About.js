@@ -1,5 +1,5 @@
 import React from 'react'
-import { Avatar, Grid } from '@mui/material';
+import { Avatar, Grid, Typography } from '@mui/material';
 
 
 const About = ({ resumeData }) => {
@@ -16,25 +16,33 @@ const About = ({ resumeData }) => {
                 </Grid>
                 <Grid item xs={12} md={5}>
                     <div className='text-left'>
-                        <h2>About Me</h2>
-                        <p>
+                        <Typography variant="h5" component="h2">
+                            About Me
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary">
                         {
-                            resumeData.aboutme
+                            resumeData.aboutMe
                         }
-                        </p>
+                        </Typography>
 
 
 
                         <div className="contact-details">
-                            <h2>Contact Details</h2>
+                            <Typography variant="h5" component="h2" mt={4}>
+                                Contact Details
+                            </Typography>
                             <p className="address">
-                                <span>{resumeData.name}</span>
+                                <Typography variant="body2" color="textSecondary">
+                                    {resumeData.name}
+                                </Typography>
                                 <br></br>
-                                <span>
+                                <Typography variant="body2" color="textSecondary">
                                 {resumeData.address}
-                                </span>
+                                </Typography>
                                 <br></br>
-                                <span>{resumeData.website}</span>
+                                <Typography variant="body2" color="textSecondary">
+                                    {resumeData.website}
+                                </Typography>
                             </p>
                         </div>
                     </div>

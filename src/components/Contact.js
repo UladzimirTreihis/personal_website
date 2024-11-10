@@ -1,9 +1,12 @@
 import React from 'react'
+import { Typography } from '@mui/material'
 
 const Contact = ({ resumeData }) => {
   return (
     <section id='contact' class='section'> 
-        <h2>Reach me out for any work or other suggestions below</h2>
+        <Typography variant="h6" component="h2">
+          Reach me out for any work or other suggestions below
+        </Typography>
         <ul className="social">
                     {
                         resumeData.socialLinks && resumeData.socialLinks.map(item =>{
