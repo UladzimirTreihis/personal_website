@@ -238,7 +238,8 @@ let resumeData = {
         "description":"Personal website",
         "images":["images/portfolio/website0.png"],
         "url": "https://treihis.com/",
-        "stack": ["React", "MUI"]
+        "stack": ["React", "MUI"],
+        "gitUrl": "https://github.com/UladzimirTreihis/personal_website"
       },
       {
         "name":"CoolGoat Football Bets",
