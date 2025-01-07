@@ -237,8 +237,16 @@ let resumeData = {
         "name":"This website",
         "description":"Personal website",
         "images":["images/portfolio/website0.png"],
-        "url": "https://www.wikipedia.org/",
-        "stack": ["React", "MUI"]
+        "url": "https://treihis.com/",
+        "stack": ["React", "MUI"],
+        "gitUrl": "https://github.com/UladzimirTreihis/personal_website"
+      },
+      {
+        "name":"CoolGoat Football Bets",
+        "description":"Website to track football matches and purchase bonds",
+        "images":["images/portfolio/football_bets0.png", "images/portfolio/football_bets1.png", "images/portfolio/football_bets2.png", "images/portfolio/football_bets2.jpg"],
+        "url": "https://web.coolgoat4444.me/",
+        "stack": ["React", "Node.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"]
       },
     ],
   }
