@@ -246,7 +246,29 @@ let resumeData = {
         "description":"Website to track football matches and purchase bonds",
         "images":["images/portfolio/football_bets0.png", "images/portfolio/football_bets1.png", "images/portfolio/football_bets2.png", "images/portfolio/football_bets3.jpg"],
         "url": "https://web.coolgoat4444.me/",
-        "stack": ["React", "Node.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"]
+        "stack": ["React", "Express.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"]
+      },
+      {
+        "name":"Walacugi Tourism",
+        "description":"Walacugi Tourism platform to manage the news and events (in progress)",
+        "images":["images/portfolio/walacugi0.png", "images/portfolio/walacugi1.png"],
+        "url": "https://walacugi.org/",
+        "stack": ["React", "Express.js", "Mongo", "MUI"]
+      },
+      {
+        "name":"Days until I see you",
+        "description":"Telegram Bot for events count down",
+        "images":["images/portfolio/telegram0.png", "images/portfolio/telegram1.png"],
+        "url": "https://github.com/UladzimirTreihis/days_until_i_see_you_bot",
+        "stack": ["Python", "FastAPI", "Telegram API"],
+        "gitUrl": "https://github.com/UladzimirTreihis/days_until_i_see_you_bot"
+      },
+      {
+        "name":"Google Scholar Parser",
+        "description":"Parses Google Scholar for publications, authors and citations",
+        "images":["images/portfolio/scholar0.jpg"],
+        "stack": ["Python", "Selenium"],
+        "gitUrl": "https://github.com/UladzimirTreihis/g-scholar-parser"
       },
     ],
   }
