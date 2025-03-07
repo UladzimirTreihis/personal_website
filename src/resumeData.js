@@ -246,7 +246,8 @@ let resumeData = {
         "description":"Website to track football matches and purchase bonds",
         "images":["images/portfolio/football_bets0.png", "images/portfolio/football_bets1.png", "images/portfolio/football_bets2.png", "images/portfolio/football_bets3.jpg"],
         "url": "https://web.coolgoat4444.me/",
-        "stack": ["React", "Express.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"]
+        "stack": ["React", "Express.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"],
+        "gitUrl": "https://github.com/UladzimirTreihis/CoolGoat"
       },
       {
         "name":"Walacugi Tourism",
