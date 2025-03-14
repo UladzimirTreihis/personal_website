@@ -258,11 +258,11 @@ let resumeData = {
       },
       {
         "name":"Days until I see you",
-        "description":"Telegram Bot for events count down",
+        "description":"Telegram Bot for events count down and GPT supported conversations in the context of FAISS",
         "images":["images/portfolio/telegram0.png", "images/portfolio/telegram1.png"],
-        "url": "https://github.com/UladzimirTreihis/days_until_i_see_you_bot",
+        "url": "https://github.com/UladzimirTreihis/ldr_bot",
         "stack": ["Python", "FastAPI", "Telegram API"],
-        "gitUrl": "https://github.com/UladzimirTreihis/days_until_i_see_you_bot"
+        "gitUrl": "https://github.com/UladzimirTreihis/ldr_bot"
       },
       {
         "name":"Google Scholar Parser",
