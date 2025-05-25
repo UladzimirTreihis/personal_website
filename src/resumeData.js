@@ -21,7 +21,7 @@ let resumeData = {
       ],
     "aboutMe": "I'm a passionate problem-solver with a background in mathematics and computer science, drawn to projects that bridge technology and real-world applications. My journey has taken me around the globe—Belarus, Armenia, Singapore, Chile, and Poland—where I studied and worked, from developing educational courses to building websites and analyzing data. My personal favorite quality is critical thinking and the ability to bring new and creative solutions to the table. Beyond that, I am a functional programming and mathematics enthusiast, a sound and music designer, and a big-time geography fan.",
     "address":"Bialystok, Poland",
-    "website":"",
+    "website":"https://treihis.com/",
     "education":[
       {
         "universityName":"Yale-NUS College, Singapore",
@@ -54,6 +54,23 @@ let resumeData = {
       },
     ],
     "work":[
+      {
+        "companyName":"Foreo",
+        "role":"AI Developer, Intern Team Leader",
+        "monthFrom":"March",
+        "yearFrom":"2025",
+        "monthTo":"Present",
+        "yearTo":"",
+        "images": ["images/experience/foreo0.png", "images/experience/foreo1.png"],
+        "about": "Leading a team of interns to develop different AI solutions for the skin care industry",
+        "skills": ["GKE", "Python", "RAG", "Transformers"],
+        "achievements": [
+          "Configured a prototype solution into a scalable and deployable module.",
+          "Consulted the company on the best AI solutions in terms of resources and efficiency.",
+          "Deployed and maintained a RAG based chatbot to GKE.",
+          "Managed a team of 15 interns, assigning the tasks, integrating their solutions and providing the feedback based on the company's immidiate needs."
+        ]
+      },
       {
         "companyName":"Crimson Education",
         "role":"Web Development Tutor",
@@ -135,6 +152,10 @@ let resumeData = {
           "level": "4"
         },
         {
+          "pLanguageName":"TypeScript",
+          "level": "4"
+        },
+        {
           "pLanguageName":"R",
           "level": "3"
         },
@@ -187,6 +208,18 @@ let resumeData = {
         {
           "toolName": "Pandas",
           "level": "4"
+        },
+        {
+          "toolName": "RAG",
+          "level": "4"
+        },
+        {
+          "toolName": "GKE",
+          "level": "3.5"
+        },
+        {
+          "toolName": "PyTorch",
+          "level": "3.5"
         },
         {
           "toolName": "AWS Lambda",
