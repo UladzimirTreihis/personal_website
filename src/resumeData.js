@@ -59,21 +59,21 @@ let resumeData = {
         "role":"AI Developer, Intern Team Leader",
         "monthFrom":"March",
         "yearFrom":"2025",
-        "monthTo":"Present",
-        "yearTo":"",
+        "monthTo":"July",
+        "yearTo":"2025",
         "images": ["images/experience/foreo0.png", "images/experience/foreo1.png"],
         "about": "Leading a team of interns to develop different AI solutions for the skin care industry",
         "skills": ["GKE", "Python", "RAG", "Transformers"],
         "achievements": [
-          "Configured a prototype solution into a scalable and deployable module.",
+          "Designed, implemented and deployed a RAG-based Chatbot to Foreo’s web-services to increase sales.",
+          "Managed Foreo’s GCP account, setting up the documentation and standards across several projects.",
           "Consulted the company on the best AI solutions in terms of resources and efficiency.",
-          "Deployed and maintained a RAG based chatbot to GKE.",
           "Managed a team of 15 interns, assigning the tasks, integrating their solutions and providing the feedback based on the company's immidiate needs."
         ]
       },
       {
         "companyName":"Crimson Education",
-        "role":"Web Development Tutor",
+        "role":"Web Development and AITutor",
         "monthFrom":"August",
         "yearFrom":"2024",
         "monthTo":"December",
@@ -83,7 +83,7 @@ let resumeData = {
         "skills": ["React", "Node.js", "Flask", "SQL", "SQLite"],
         "achievements": [
           "Designed new Frontend with React and Backend with Flask courses expanding the school to Web -Development.",
-          "Mentored over 20 students from absolute beginners to their first hosted web-projects."
+          "Mentored over 20 students from absolute beginners to their first hosted web-projects using FastAPI, Node and React."
         ]
       },
       {
@@ -97,7 +97,8 @@ let resumeData = {
         "about": "Building a web service for the leading data collection and processing the detections of atomic and molecular spectral lines for galaxies",
         "skills": ["Flask", "SQL", "GitHub", "Git", "Code review", "Presentation"],
         "achievements": [
-          "Built and deployed a Flask-based application with user authentication and admin authorization to securely submit, parse, approve and process data from a web-form or file submission.",
+          "Developed and architected the first web application to store, process, and visualize astrophysical data on molecular line detections of galaxies.",
+          "Built a Flask-based application with user authentication and admin authorization to securely submit, parse, approve and process data from a web-form or file submission.",
           "Managed project's GitHub repository and documentation."
         ]
       },
@@ -141,18 +142,18 @@ let resumeData = {
         },
         {
           "pLanguageName":"Javascript",
-          "level": "5"
-        },
-        {
-          "pLanguageName":"SQL",
-          "level": "4"
-        },
-        {
-          "pLanguageName":"OCaml",
-          "level": "4"
+          "level": "4.5"
         },
         {
           "pLanguageName":"TypeScript",
+          "level": "4.5"
+        },
+        {
+          "pLanguageName":"SQL",
+          "level": "4.5"
+        },
+        {
+          "pLanguageName":"OCaml",
           "level": "4"
         },
         {
@@ -214,8 +215,8 @@ let resumeData = {
           "level": "4"
         },
         {
-          "toolName": "GKE",
-          "level": "3.5"
+          "toolName": "GCP",
+          "level": "4"
         },
         {
           "toolName": "PyTorch",
@@ -224,10 +225,6 @@ let resumeData = {
         {
           "toolName": "AWS Lambda",
           "level": "3"
-        },
-        {
-          "toolName": "Nginx",
-          "level": "2"
         }
       ],
       "languages": [
