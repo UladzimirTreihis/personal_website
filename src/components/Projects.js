@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, GridItem, Card, CardMedia, CardContent, CardActions, Typography, Button } from '@mui/material'
+import { Grid, Card, Typography } from '@mui/material'
 import Project from './Project'
 
 const Projects = ({ resumeData }) => {

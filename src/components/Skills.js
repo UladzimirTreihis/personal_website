@@ -3,12 +3,10 @@ import { Box, Typography, Grid, Rating, Accordion, AccordionSummary, AccordionDe
 import { ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
 import { styled } from '@mui/system';
 
-// Styled container for each skill section
 const SkillSection = styled(Box)(({ theme }) => ({
   marginBottom: theme.spacing(4),
 }));
 
-// Skill item container with hover effect
 const SkillItem = styled(Box)(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',

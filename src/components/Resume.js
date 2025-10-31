@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Rating, Typography } from '@mui/material'
+import { Grid, Typography } from '@mui/material'
 import Education from './Education'
 import Experiences from './Experiences'
 import Skills from './Skills'

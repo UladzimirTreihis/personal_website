@@ -1,20 +1,17 @@
 import React from 'react';
-import { Box, Typography, Paper, Accordion, AccordionSummary, AccordionDetails, List, ListItem } from '@mui/material';
-// import { ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
+import { Box, Typography, Accordion, AccordionSummary, AccordionDetails, List, ListItem } from '@mui/material';
 import { styled } from '@mui/system';
 import Slider from 'react-slick';
 import BaseImage from '../shared/BaseImage'
 import CardContainer from '../shared/CardContainer'
 
-// Styled component that inherits from the base Image
 const SchoolImage = styled(BaseImage)({});
 
-// Styled component that inherits from CardContainer
 const SchoolContainer = styled(CardContainer)({});
 
 const ImageContainer = styled(Box)(({ theme }) => ({
   width: '100%',
-  height: '300px', // Set a fixed height for the image carousel
+  height: '300px',
   marginBottom: theme.spacing(2),
 }));
 
@@ -43,13 +40,12 @@ const School = ({ data }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000, // Change image every 3 seconds
-    arrows: false, // Disable navigation arrows for a cleaner look
+    autoplaySpeed: 3000,
+    arrows: false,
   };
 
   return (
     <SchoolContainer elevation={3}>
-      {/* Image Carousel */}
       <ImageContainer>
         <Slider {...settings}>
           {images.map((image, index) => (
@@ -58,7 +54,6 @@ const School = ({ data }) => {
         </Slider>
       </ImageContainer>
 
-      {/* Text Content */}
       <Box mb={2}>
         <Typography variant="h5" component="h2">
           {universityName}
@@ -83,7 +78,7 @@ const School = ({ data }) => {
           {about}
         </Typography>
       )}
-      {/* Dropdown for Courses and Clubs */}
+
       <Accordion>
         <AccordionSummary>
           <Typography variant="body2" color="textSecondary">View Courses and Clubs</Typography>
