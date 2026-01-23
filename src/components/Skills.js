@@ -3,10 +3,6 @@ import { Box, Typography, Grid, Rating, Accordion, AccordionSummary, AccordionDe
 import { ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
 import { styled } from '@mui/system';
 
-const SkillSection = styled(Box)(({ theme }) => ({
-  marginBottom: theme.spacing(4),
-}));
-
 const SkillItem = styled(Box)(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
