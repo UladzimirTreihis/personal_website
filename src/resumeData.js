@@ -302,6 +302,58 @@ let resumeData = {
         "gitUrl": "https://github.com/UladzimirTreihis/g-scholar-parser"
       },
     ],
+    "map": {
+      "visited": [
+        "Armenia",
+        "Cambodia",
+        "China",
+        "Georgia",
+        "Malaysia",
+        "Russia",
+        "Singapore",
+        "Turkey",
+        "Vietnam",
+        "Albania",
+        "Austria",
+        "Belarus",
+        "Bulgaria",
+        "Czech Republic",
+        "Germany",
+        "Greece",
+        "Hungary",
+        "Italy",
+        "Latvia",
+        "Lithuania",
+        "Netherlands",
+        "Norway",
+        "Poland",
+        "Portugal",
+        "Slovakia",
+        "Spain",
+        "Sweden",
+        "Ukraine",
+        "Vatican City",
+        "Canada",
+        "Costa Rica",
+        "El Salvador",
+        "Guatemala",
+        "Honduras",
+        "Nicaragua",
+        "USA",
+        "Argentina",
+        "Brazil",
+        "Chile",
+        "Peru"
+      ],
+      "lived": [
+        "Belarus",
+        "Singapore",
+        "Chile",
+        "Poland",
+        "Armenia",
+        "Spain"
+      ]
+    },
   }
   
   export default resumeData

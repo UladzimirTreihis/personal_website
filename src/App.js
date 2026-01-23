@@ -7,6 +7,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Map from './components/Map';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About resumeData={resumeData}/>
       <Resume resumeData={resumeData}/>
       <Projects resumeData={resumeData}/>
+      <Map resumeData={resumeData}/>
       <Contact resumeData={resumeData} />
     </div>
   );
