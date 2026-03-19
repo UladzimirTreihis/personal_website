@@ -272,6 +272,13 @@ let resumeData = {
         "gitUrl": "https://github.com/UladzimirTreihis/personal_website"
       },
       {
+        "name":"Get Quiz AI",
+        "description":"Get your quiz based on your study materials",
+        "images":["images/portfolio/guiz0.png", "images/portfolio/guiz1.png"],
+        "url": "https://getquiz.ai/features",
+        "stack": ["Next.js", "MongoDB", "Revideo", "AWS Lambda"],
+      },
+      {
         "name":"CoolGoat Football Bets",
         "description":"Website to track football matches and purchase bonds",
         "images":["images/portfolio/football_bets0.png", "images/portfolio/football_bets1.png", "images/portfolio/football_bets2.png", "images/portfolio/football_bets3.jpg"],
@@ -343,7 +350,8 @@ let resumeData = {
         "Argentina",
         "Brazil",
         "Chile",
-        "Peru"
+        "Peru",
+        "UK"
       ],
       "lived": [
         "Belarus",
@@ -351,7 +359,9 @@ let resumeData = {
         "Chile",
         "Poland",
         "Armenia",
-        "Spain"
+        "Spain",
+        "USA",
+        "Sweden"
       ]
     },
   }
