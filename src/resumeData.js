@@ -256,6 +256,28 @@ let resumeData = {
     },
     "portfolio":[
       {
+        "name":"Get Quiz AI",
+        "description":"Get your quiz based on your study materials",
+        "images":["images/portfolio/quiz0.png", "images/portfolio/quiz1.png"],
+        "url": "https://getquiz.ai/features",
+        "stack": ["Next.js", "MongoDB", "Revideo", "AWS Lambda"],
+      },
+      {
+        "name":"Walacugi Tourism",
+        "description":"Walacugi Tourism platform to manage the news and events (in progress)",
+        "images":["images/portfolio/walacugi0.png", "images/portfolio/walacugi1.png"],
+        "url": "https://walacugi.org/",
+        "stack": ["React", "Express.js", "Mongo", "MUI"]
+      },
+      {
+        "name":"CoolGoat Football Bets",
+        "description":"Website to track football matches and purchase bonds",
+        "images":["images/portfolio/football_bets0.png", "images/portfolio/football_bets1.png", "images/portfolio/football_bets2.png", "images/portfolio/football_bets3.jpg"],
+        "url": "https://web.coolgoat4444.me/",
+        "stack": ["React", "Express.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"],
+        "gitUrl": "https://github.com/UladzimirTreihis/CoolGoat"
+      },
+      {
         "name":"LineDB",
         "description":"A public database of all published detections of atomic and molecular spectral lines for galaxies at z > 1",
         "images":["images/portfolio/linedb0.png", "images/portfolio/linedb1.png"],
@@ -270,28 +292,6 @@ let resumeData = {
         "url": "https://treihis.com/",
         "stack": ["React", "MUI"],
         "gitUrl": "https://github.com/UladzimirTreihis/personal_website"
-      },
-      {
-        "name":"Get Quiz AI",
-        "description":"Get your quiz based on your study materials",
-        "images":["images/portfolio/guiz0.png", "images/portfolio/guiz1.png"],
-        "url": "https://getquiz.ai/features",
-        "stack": ["Next.js", "MongoDB", "Revideo", "AWS Lambda"],
-      },
-      {
-        "name":"CoolGoat Football Bets",
-        "description":"Website to track football matches and purchase bonds",
-        "images":["images/portfolio/football_bets0.png", "images/portfolio/football_bets1.png", "images/portfolio/football_bets2.png", "images/portfolio/football_bets3.jpg"],
-        "url": "https://web.coolgoat4444.me/",
-        "stack": ["React", "Express.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"],
-        "gitUrl": "https://github.com/UladzimirTreihis/CoolGoat"
-      },
-      {
-        "name":"Walacugi Tourism",
-        "description":"Walacugi Tourism platform to manage the news and events (in progress)",
-        "images":["images/portfolio/walacugi0.png", "images/portfolio/walacugi1.png"],
-        "url": "https://walacugi.org/",
-        "stack": ["React", "Express.js", "Mongo", "MUI"]
       },
       {
         "name":"Days until I see you",
