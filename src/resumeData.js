@@ -15,12 +15,12 @@ let resumeData = {
         },
         {
           "name":"email",
-          "url":"uladzimir.treihis@gmail.com",
+          "url":"mailto:uladzimir.treihis@gmail.com",
           "className":"fa fa-envelope"
         }
       ],
     "aboutMe": "I'm a passionate problem-solver with a background in mathematics and computer science, drawn to projects that bridge technology and real-world applications. My journey has taken me around the globe—Belarus, Armenia, Singapore, Chile, and Poland—where I studied and worked, from developing educational courses to building websites and analyzing data. My personal favorite quality is critical thinking and the ability to bring new and creative solutions to the table. Beyond that, I am a functional programming and mathematics enthusiast, a sound and music designer, and a big-time geography fan.",
-    "address":"Bialystok, Poland",
+    "basedIn":"Warsaw, Poland",
     "website":"https://treihis.com/",
     "education":[
       {
@@ -54,6 +54,22 @@ let resumeData = {
       },
     ],
     "work":[
+      {
+        "companyName":"Contract Work",
+        "role":"Full Stack Developer",
+        "monthFrom":"July",
+        "yearFrom":"2025",
+        "monthTo":"December",
+        "yearTo":"2025",
+        "images": ["images/experience/fullstack0.jpg", "images/experience/fullstack01.png"],
+        "about": "Full Stack Developer at a contract work for a startup in the advertising industry",
+        "skills": ["Next.js", "React", "Node.js", "MUI", "Integrations", "REST APIs", "PostgreSQL"],
+        "achievements": [
+          "Engineered API and components for the dashboard interface of advertisements improving clients UX and KPI visibility.",
+          "Built a reporting API that automated the generation and delivery of PDF reports via Slack and SendGrid, replacing a manual process and providing on-demand insights for the sales team.",
+          "Refactored the primary ad-filtering system from single-select to a multi-filter component, improving user experience and enabling more complex ad campaign analysis."
+        ]
+      },
       {
         "companyName":"Foreo",
         "role":"AI Developer, Intern Team Leader",
@@ -267,6 +283,7 @@ let resumeData = {
         "description":"Walacugi Tourism platform to manage the news and events (in progress)",
         "images":["images/portfolio/walacugi0.png", "images/portfolio/walacugi1.png"],
         "url": "https://walacugi.org/",
+        "gitUrl": "https://github.com/UladzimirTreihis/walacugi",
         "stack": ["React", "Express.js", "Mongo", "MUI"]
       },
       {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Avatar, Grid, Typography } from '@mui/material';
+import { Avatar, Grid, Link, Typography } from '@mui/material';
 
 
 const About = ({ resumeData }) => {
@@ -24,26 +24,24 @@ const About = ({ resumeData }) => {
                             resumeData.aboutMe
                         }
                         </Typography>
+                        <Typography variant="body1" color="textPrimary" mt={2}>
+                        📍 Currently based in {resumeData.basedIn}
+                        </Typography>
 
 
 
                         <div className="contact-details">
-                            <Typography variant="h5" component="h2" mt={4}>
-                                Contact Details
+                            <Typography variant="h5" mt={4}>
+                                <Link
+                                    href="/docs/Uladzimir_Treihis_resume.pdf"
+                                    download="Uladzimir_Treihis_resume.pdf"
+                                    underline="hover"
+                                    color="primary"
+                                    sx={{ display: 'inline-block', mt: 2.5 }}
+                                >
+                                    Click here to download my resume
+                                </Link>
                             </Typography>
-                            <p className="address">
-                                <Typography variant="body2" color="textSecondary">
-                                    {resumeData.name}
-                                </Typography>
-                                <br></br>
-                                <Typography variant="body2" color="textSecondary">
-                                {resumeData.address}
-                                </Typography>
-                                <br></br>
-                                <Typography variant="body2" color="textSecondary">
-                                    {resumeData.website}
-                                </Typography>
-                            </p>
                         </div>
                     </div>
                 </Grid>
