@@ -55,12 +55,12 @@ let resumeData = {
     ],
     "work":[
       {
-        "companyName":"Contract Work",
+        "companyName":"KeyTech Solutions",
         "role":"Full Stack Developer",
         "monthFrom":"July",
         "yearFrom":"2025",
-        "monthTo":"December",
-        "yearTo":"2025",
+        "monthTo":"May",
+        "yearTo":"2026",
         "images": ["images/experience/fullstack0.jpg", "images/experience/fullstack01.png"],
         "about": "Full Stack Developer at a contract work for a startup in the advertising industry",
         "skills": ["Next.js", "React", "Node.js", "MUI", "Integrations", "REST APIs", "PostgreSQL"],
