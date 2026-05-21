@@ -292,7 +292,6 @@ let resumeData = {
         "images":["images/portfolio/foreo0.png", "images/portfolio/foreo1.png"],
         "url": "https://chat.foreo.com/",
         "stack": ["React", "FastAPI", "RAG", "FAISS", "Kubernetes", "Docker", "GCP", "AWS EC2"],
-        "gitUrl": "https://github.com/UladzimirTreihis/CoolGoat"
       },
       {
         "name":"CoolGoat Football Bets",
