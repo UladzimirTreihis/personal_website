@@ -28,8 +28,8 @@ let resumeData = {
         "specialization":"Mathematical, Computational and Statistical Sciences",
         "monthFrom":"August",
         "yearFrom":"2020",
-        "monthTo":"June",
-        "yearTo":"2025",
+        "monthTo":"December",
+        "yearTo":"2024",
         "achievements":"",
         "gpa": "4.73/5",
         "images": ["images/education/ync/0.jpg", "images/education/ync/1.jpg", "images/education/ync/2.jpg"],
@@ -287,10 +287,18 @@ let resumeData = {
         "stack": ["React", "Express.js", "Mongo", "MUI"]
       },
       {
+        "name":"Foreo Assistant",
+        "description":"Rag based chatbot implemented by me as part of my time at Foreo",
+        "images":["images/portfolio/foreo0.png", "images/portfolio/foreo1.png"],
+        "url": "https://chat.foreo.com/",
+        "stack": ["React", "FastAPI", "RAG", "FAISS", "Kubernetes", "Docker", "GCP", "AWS EC2"],
+        "gitUrl": "https://github.com/UladzimirTreihis/CoolGoat"
+      },
+      {
         "name":"CoolGoat Football Bets",
         "description":"Website to track football matches and purchase bonds",
         "images":["images/portfolio/football_bets0.png", "images/portfolio/football_bets1.png", "images/portfolio/football_bets2.png", "images/portfolio/football_bets3.jpg"],
-        "url": "https://web.coolgoat4444.me/",
+        "url": "https://github.com/UladzimirTreihis/CoolGoat",
         "stack": ["React", "Express.js", "PostgreSQL", "Docker", "Nginx", "AWS EC2", "AWS S3", "AWS Lambda", "AWS API Gateway", "Cloudfront", "MQTT"],
         "gitUrl": "https://github.com/UladzimirTreihis/CoolGoat"
       },
