@@ -272,6 +272,13 @@ let resumeData = {
     },
     "portfolio":[
       {
+        "name":"Zusia.pl",
+        "description":"AI Tax Assistant for Polish interpreneurs",
+        "images":["images/portfolio/zus0.png", "images/portfolio/zus1.png", "images/portfolio/zus2.jpg"],
+        "url": "https://zusia.pl/",
+        "stack": ["Next.js", "PostgreSQL", "FastAPI", "RAG", "Retrieval Architecture"],
+      },
+      {
         "name":"Get Quiz AI",
         "description":"Get your quiz based on your study materials",
         "images":["images/portfolio/quiz0.png", "images/portfolio/quiz1.png"],
